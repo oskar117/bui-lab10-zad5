@@ -1,0 +1,11 @@
+article {
+    padding: 10px;
+    background-color: #f7f7f7;
+    .browsers {
+        display: flex;
+        flex-direction: row;
+        & > * {
+            margin: 10px;
+        }
+    }
+}

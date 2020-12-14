@@ -1,0 +1,10 @@
+@import '../index';
+
+footer {
+    padding-left: 1em;
+    height: $barheight;
+    background-color: $barcolor;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}

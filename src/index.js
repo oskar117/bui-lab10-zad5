@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import './index.scss';
+//import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Page from "./components/Page";
+import data from "./data/browsers.json";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Page browsers={data} />
   </React.StrictMode>,
   document.getElementById('root')
 );
